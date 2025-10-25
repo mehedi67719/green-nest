@@ -22,7 +22,7 @@ console.log(user)
 
   return (
 
-      <header className="flex justify-between items-center px-4 md:px-12 py-4 bg-white shadow-sm border-b border-gray-100 relative">
+      <header className="flex gap-5 flex-col md:flex-row lg:flex-row lg:flex-row md:justify-between lg:justify-between items-center px-4 md:px-12 py-4 bg-white shadow-sm border-b border-gray-100 relative">
       
       <NavLink to='/home'>
         <div className="flex items-center space-x-2 text-xl font-bold text-green-700">
@@ -31,7 +31,7 @@ console.log(user)
         </div>
       </NavLink>
 
-      <nav className="hidden md:flex space-x-8">
+      <nav className="flex-col md:flex md:flex-row lg:flex-row space-x-8">
         <NavLink to="/home" className="text-gray-600 hover:text-green-700 font-medium transition duration-150">Home</NavLink>
         <NavLink to="/plant" className="text-gray-600 hover:text-green-700 font-medium transition duration-150">Plants</NavLink>
         <NavLink to="/userinfo" className="text-gray-600 hover:text-green-700 font-medium transition duration-150">My profile</NavLink>

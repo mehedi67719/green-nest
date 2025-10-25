@@ -31,7 +31,7 @@ return(
             <h3 className="text-xl font-semibold text-center text-green-700 mb-6">
               Meet Our Green Experts
             </h3>
-            <div className="flex justify-around space-x-4">
+            <div className="flex flex-col md:flex-row lg:flex-row items-center md:justify-around lgjustify-around space-x-4">
               {experts.map((expert, index) => (
                 <div key={index} className="flex flex-col items-center text-center w-1/3">
                   
