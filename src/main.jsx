@@ -31,11 +31,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/home",
-        element: <Privaterouter><Home /></Privaterouter>,
+        element: <Home></Home>
       },
       {
         path: "/plant",
-        element: <Privaterouter><Plants /></Privaterouter>,
+        element: <Plants></Plants>,
       },
       {
         path: "/login",
