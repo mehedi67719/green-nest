@@ -1,6 +1,6 @@
 # 🌿 Green Nest — Client Side (Frontend)
 
-🔗 Live Site: [Click Here](https://your-live-site-link.com)  
+🔗 Live Site: [Click Here](https://amazing-tiramisu-49f2f5.netlify.app/home)  
 💻 Repository: [GitHub Link](https://github.com/mehedi67719/green-nest.git)  
 📋 Explore, shop, and consult about indoor plants while learning plant care tips.
 
